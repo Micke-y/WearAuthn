@@ -68,6 +68,10 @@ No need to dig through the app list — two shortcuts launch the app directly:
 - **Tile**: add it to quick settings and pull down from the watch face.
 - **Complication**: assign a slot on your watch face and tap it to launch.
 
+| Watch face: the complication points to this app |
+| --- |
+| <img src="./images/face.png" width="260"> |
+
 ## 📲 Installation
 
 Install a single APK on the watch:
