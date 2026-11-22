@@ -40,11 +40,23 @@
 
 实机截图：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）。
 
-| ① 应用主界面（未连接） | ② 设备详情 · 点按连接 |
+**应用主界面**
+
+| 未连接 | 已连接 |
 | --- | --- |
-| <img src="./images/s1.png" width="280"> | <img src="./images/s2.png" width="280"> |
-| ③ 已连接 | ④ 主界面（连接后） |
-| <img src="./images/s3.png" width="280"> | <img src="./images/s4.png" width="280"> |
+| <img src="./images/app-main-off.png" width="280"> | <img src="./images/app-main-on.png" width="280"> |
+
+**磁贴（Tile）**
+
+| 未连接 · 点按连接 | 已连接 |
+| --- | --- |
+| <img src="./images/tile-off.png" width="280"> | <img src="./images/tile-on.png" width="280"> |
+
+**表盘界面**
+
+| 复杂功能入口指向本应用 |
+| --- |
+| <img src="./images/face.png" width="260"> |
 
 ## 🎯 概述
 
@@ -67,10 +79,6 @@ Wear OS 设备内置独立的安全芯片，原本用于 Google Pay 的密钥存
 
 - **磁贴（Tile）**：加入快捷设置后，从表盘下拉即可进入应用。
 - **表盘复杂功能（Complication）**：在表盘上指定一个位置，点击该位置即启动。
-
-| 表盘：复杂功能入口指向本应用 |
-| --- |
-| <img src="./images/face.png" width="260"> |
 
 ## 📲 安装
 

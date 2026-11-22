@@ -40,11 +40,23 @@ English | [简体中文](./README.md)
 
 Captured on a Samsung Galaxy Watch 7 running One UI Watch 8.0 (Wear OS 6).
 
-| ① Main screen (disconnected) | ② Device detail · tap to connect |
+**App main screen**
+
+| Disconnected | Connected |
 | --- | --- |
-| <img src="./images/s1.png" width="280"> | <img src="./images/s2.png" width="280"> |
-| ③ Connected | ④ Main screen after connecting |
-| <img src="./images/s3.png" width="280"> | <img src="./images/s4.png" width="280"> |
+| <img src="./images/app-main-off.png" width="280"> | <img src="./images/app-main-on.png" width="280"> |
+
+**Tile**
+
+| Disconnected · tap to connect | Connected |
+| --- | --- |
+| <img src="./images/tile-off.png" width="280"> | <img src="./images/tile-on.png" width="280"> |
+
+**Watch face**
+
+| Complication pointing to this app |
+| --- |
+| <img src="./images/face.png" width="260"> |
 
 ## 🎯 Overview
 
@@ -67,10 +79,6 @@ No need to dig through the app list — two shortcuts launch the app directly:
 
 - **Tile**: add it to quick settings and pull down from the watch face.
 - **Complication**: assign a slot on your watch face and tap it to launch.
-
-| Watch face: the complication points to this app |
-| --- |
-| <img src="./images/face.png" width="260"> |
 
 ## 📲 Installation
 
