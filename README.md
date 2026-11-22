@@ -35,6 +35,7 @@
 * 在 Wear OS 手表上实现 FIDO2 / U2F 安全密钥功能，遵循 CTAP 规范。
 * 通过蓝牙与主机通信，在手表端完成用户确认并生成签名断言。
 * 私钥由手表的安全芯片保管，不离开设备，签名在本地完成。
+* 已在 GitHub 与 Google 账号的 WebAuthn 登录流程中实测可用（Windows 11，蓝牙通道）。
 * 支持常驻凭据（resident key），可结合屏幕锁实现免密登录。
 * 界面为简体中文，提供磁贴与表盘复杂功能两种入口。
 * 仅需在手表侧安装，无配套手机应用。
@@ -101,7 +102,7 @@ Wear OS 设备内置独立的安全芯片，原本用于 Google Pay 的密钥存
 
 - **手表**：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）
 - **主机**：Windows 11，蓝牙配对
-- **测试站点**：[webauthn.io](https://webauthn.io/)（WebAuthn 官方演示站，Duo Labs 维护）
+- **测试站点**：[webauthn.io](https://webauthn.io/)（WebAuthn 官方演示站，Duo Labs 维护）、GitHub 与 Google 账号登录
 - **NFC**：未验证
 
 | 平台 | 通道 | 状态 |
