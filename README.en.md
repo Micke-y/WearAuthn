@@ -17,6 +17,12 @@
 </div>
 
 <div align="center">
+
+<a href="https://github.com/Micke-y/WearAuthn/releases/latest"><img src="https://img.shields.io/badge/Download%20latest%20APK-2962FF?style=for-the-badge&logo=android&logoColor=white" alt="Download"></a>
+
+</div>
+
+<div align="center">
   <h3>"Raise your wrist — it's a key."</h3>
 </div>
 

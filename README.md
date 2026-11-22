@@ -17,6 +17,12 @@
 </div>
 
 <div align="center">
+
+<a href="https://github.com/Micke-y/WearAuthn/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E5%8E%89%E6%9C%80%E6%96%B0%E7%89%88%20APK-2962FF?style=for-the-badge&logo=android&logoColor=white" alt="Download"></a>
+
+</div>
+
+<div align="center">
   <h3>"抬手，就是一把钥匙"</h3>
 </div>
 
