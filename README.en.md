@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Micke-y/WearAuthn/releases/latest"><img src="https://img.shields.io/static/v1?label=Download%20latest&message=APK&color=2962FF&style=for-the-badge&logo=android&logoColor=white" alt="Download"></a>
+<a href="https://github.com/Micke-y/WearAuthn/releases/latest"><img src="https://img.shields.io/badge/Download%20latest-APK-2962FF?logo=android&logoColor=white" alt="Download"></a>
 
 </div>
 
