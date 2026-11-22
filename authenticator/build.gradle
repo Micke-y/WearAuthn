@@ -15,7 +15,7 @@ android {
             keyPassword 'hunter2'
         }
         releaseSign {
-            storeFile file(project.hasProperty("storeFile") ? project.storeFile : "release.jks")
+            storeFile project.hasProperty("storeFile") ? file(project.storeFile) : rootProject.file("release.jks")
             storePassword project.hasProperty("storePassword") ? project.storePassword : ""
             keyAlias project.hasProperty("keyAlias") ? project.keyAlias : "wearauthn"
             keyPassword project.hasProperty("keyPassword") ? project.keyPassword : ""
