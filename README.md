@@ -35,13 +35,13 @@
 * 在 Wear OS 手表上实现 FIDO2 / U2F 安全密钥功能，遵循 CTAP 规范。
 * 通过蓝牙与主机通信，在手表端完成用户确认并生成签名断言。
 * 私钥由手表的安全芯片保管，不离开设备，签名在本地完成。
-* 已在 GitHub 与 Google 账号的 WebAuthn 登录流程中实测可用（Windows 11，蓝牙通道）。
+* 已在 GitHub、Google 与 Microsoft 账号的 WebAuthn 登录流程中实测可用（Windows 11，蓝牙通道）。
 * 支持常驻凭据（resident key），可结合屏幕锁实现免密登录。
 * 界面为简体中文，提供磁贴与表盘复杂功能两种入口。
 * 仅需在手表侧安装，无配套手机应用。
 * NFC 通道目前未验证，详见「兼容性与验证状态」。
 
-> **实测结果**：Galaxy Watch 7（One UI Watch 8.0 / Wear OS 6）+ Windows 11 蓝牙配对，GitHub 与 Google 的登录均已成功完成认证。
+> **实测结果**：Galaxy Watch 7（One UI Watch 8.0 / Wear OS 6）+ Windows 11 蓝牙配对，GitHub、Google 与 Microsoft 的登录均已成功完成认证。
 
 
 **已在以下站点完成验证**
@@ -50,6 +50,7 @@
 | --- | --- | --- |
 | <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="22"> | ✅ 通过 | 蓝牙 · Windows 11 |
 | <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="22"> | ✅ 通过 | 蓝牙 · Windows 11 |
+| <img src="https://img.shields.io/badge/Microsoft-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" height="22"> | ✅ 通过 | 蓝牙 · Windows 11 |
 | <img src="https://img.shields.io/badge/webauthn.io-2962FF?style=flat-square&logo=webauthn&logoColor=white" height="22"> | ✅ 通过 | 蓝牙 · Windows 11 |
 
 > 注：本项目为非官方简体中文版本，基于 [fmeum/WearAuthn](https://github.com/fmeum/WearAuthn)（MIT License，© 2019 Fabian Henneke）修改。CTAP 实现、安全模型与原始设计均归原作者所有。
@@ -113,7 +114,7 @@ Wear OS 设备内置独立的安全芯片，原本用于 Google Pay 的密钥存
 
 - **手表**：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）
 - **主机**：Windows 11，蓝牙配对
-- **测试站点**：[webauthn.io](https://webauthn.io/)（WebAuthn 官方演示站，Duo Labs 维护）、GitHub 与 Google 账号登录
+- **测试站点**：[webauthn.io](https://webauthn.io/)（WebAuthn 官方演示站，Duo Labs 维护）、GitHub、Google 与 Microsoft 账号登录
 - **NFC**：未验证
 
 | 平台 | 通道 | 状态 |

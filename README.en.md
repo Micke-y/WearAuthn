@@ -35,7 +35,7 @@ English | [简体中文](./README.md) | [Changelog](./CHANGELOG.md)
 * FIDO2 / U2F security key on a Wear OS watch, implemented against the CTAP specification.
 * Talks to the host over Bluetooth; user presence and assertion generation happen on the watch.
 * Private keys stay in the watch's secure element and never leave the device; signing is local.
-* Verified working with GitHub and Google account sign-in (Windows 11, Bluetooth channel).
+* Verified working with GitHub, Google and Microsoft account sign-in (Windows 11, Bluetooth channel).
 
 **Verified on the following sites**
 
@@ -43,13 +43,14 @@ English | [简体中文](./README.md) | [Changelog](./CHANGELOG.md)
 | --- | --- | --- |
 | <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="22"> | ✅ Passed | Bluetooth · Windows 11 |
 | <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="22"> | ✅ Passed | Bluetooth · Windows 11 |
+| <img src="https://img.shields.io/badge/Microsoft-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" height="22"> | ✅ Passed | Bluetooth · Windows 11 |
 | <img src="https://img.shields.io/badge/webauthn.io-2962FF?style=flat-square&logo=webauthn&logoColor=white" height="22"> | ✅ Passed | Bluetooth · Windows 11 |
 * Supports resident keys, which enables passwordless sign-in once combined with the watch screen lock.
 * Simplified Chinese interface, with tile and watch-face complication entry points.
 * Watch-side installation only; no companion phone app.
 * The NFC channel is currently unverified. See "Compatibility and Verification Status".
 
-> **Tested**: Samsung Galaxy Watch 7 (One UI Watch 8.0 / Wear OS 6) paired over Bluetooth with Windows 11; authentication completed successfully on both GitHub and Google.
+> **Tested**: Samsung Galaxy Watch 7 (One UI Watch 8.0 / Wear OS 6) paired over Bluetooth with Windows 11; authentication completed successfully on GitHub, Google and Microsoft.
 
 
 > Note: this is an unofficial Simplified Chinese build based on [fmeum/WearAuthn](https://github.com/fmeum/WearAuthn) (MIT License, © 2019 Fabian Henneke). The CTAP implementation, the security model and the original design all belong to the upstream author.
@@ -113,7 +114,7 @@ Install a single APK on the watch. Enable developer options and ADB debugging fi
 
 - **Watch**: Samsung Galaxy Watch 7, One UI Watch 8.0 (Wear OS 6)
 - **Host**: Windows 11, paired over Bluetooth
-- **Test sites**: [webauthn.io](https://webauthn.io/) (the WebAuthn demo maintained by Duo Labs), plus GitHub and Google account sign-in
+- **Test sites**: [webauthn.io](https://webauthn.io/) (the WebAuthn demo maintained by Duo Labs), plus GitHub, Google and Microsoft account sign-in
 - **NFC**: unverified
 
 | Platform | Channel | Status |
