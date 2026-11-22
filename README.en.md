@@ -40,7 +40,7 @@ English | [简体中文](./README.md)
 
 ![Screenshots](./images/screens.png)
 
-<sub>Captured on a Samsung Galaxy Watch 7</sub>
+<sub>Captured on a Samsung Galaxy Watch 7 running One UI Watch 8.0 (Wear OS 6)</sub>
 
 </div>
 
@@ -59,6 +59,13 @@ Credentials are bound to the origin, so a phishing site cannot obtain a valid as
 - Simplified Chinese interface
 - Tile and watch-face complication entry points
 
+## Entry Points
+
+No need to dig through the app list — two shortcuts launch the app directly:
+
+- **Tile**: add it to quick settings and pull down from the watch face.
+- **Complication**: assign a slot on your watch face and tap it to launch.
+
 ## Installation
 
 Install a single APK on the watch:
@@ -71,9 +78,16 @@ Developer options and ADB debugging must be enabled on the watch first. Without 
 
 ## Compatibility and Verification Status
 
+### Test setup
+
+- **Watch**: Samsung Galaxy Watch 7, One UI Watch 8.0 (Wear OS 6)
+- **Host**: Windows 11, paired over Bluetooth
+- **Test site**: [webauthn.io](https://webauthn.io/) (the WebAuthn demo maintained by Duo Labs)
+- **NFC**: unverified
+
 | Platform | Channel | Status |
 | --- | --- | --- |
-| Windows (Bluetooth) | Paired computer | Verified · tested on Galaxy Watch 7 |
+| Windows 11 (Bluetooth) | Paired computer | Verified · tested on Galaxy Watch 7 |
 | macOS / ChromeOS / Linux | Bluetooth | Unverified · supported per upstream docs |
 | Android | NFC | Unverified · test unsuccessful |
 | iPhone | NFC | Unverified |

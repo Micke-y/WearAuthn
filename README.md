@@ -40,7 +40,7 @@
 
 ![实机截图](./images/screens.png)
 
-<sub>实机截图：Samsung Galaxy Watch 7</sub>
+<sub>实机截图：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）</sub>
 
 </div>
 
@@ -59,6 +59,13 @@ Wear OS 设备内置独立的安全芯片，原本用于 Google Pay 的密钥存
 - 简体中文界面
 - 磁贴、表盘复杂功能两种入口
 
+## 快捷入口
+
+手表上不必翻应用列表，两种方式都能直接进入：
+
+- **磁贴（Tile）**：加入快捷设置后，从表盘下拉即可进入应用。
+- **表盘复杂功能（Complication）**：在表盘上指定一个位置，点击该位置即启动。
+
 ## 安装
 
 手表侧安装单个 APK：
@@ -71,9 +78,16 @@ adb install -r WearAuthn-<version>.apk
 
 ## 兼容性与验证状态
 
+### 测试环境
+
+- **手表**：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）
+- **主机**：Windows 11，蓝牙配对
+- **测试站点**：[webauthn.io](https://webauthn.io/)（WebAuthn 官方演示站，Duo Labs 维护）
+- **NFC**：未验证
+
 | 平台 | 通道 | 状态 |
 | --- | --- | --- |
-| Windows（蓝牙） | 电脑配对后作为安全密钥 | 已验证 · Galaxy Watch 7 实测可用 |
+| Windows 11（蓝牙） | 电脑配对后作为安全密钥 | 已验证 · Galaxy Watch 7 实测可用 |
 | macOS / ChromeOS / Linux | 蓝牙 | 未验证 · 上游文档有支持 |
 | Android | NFC | 未验证 · 实测未成功 |
 | iPhone | NFC | 未验证 |
