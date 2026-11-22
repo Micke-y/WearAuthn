@@ -88,7 +88,7 @@
     <string name="label_tile_shortcut">一键连接</string>
     <string name="tile_title">WearAuthn</string>
     <string name="tile_subtitle_device">点按连接到 %1$s</string>
-    <string name="shortcut_no_device">未找到可连接的电脑，请在列表中选择</string>
+    <string name="shortcut_no_device">未找到可连接的设备，请在列表中选择</string>
     <string name="shortcut_connect_failed">连接 %1$s 未成功</string>
     <string name="tile_main_choose">选择设备</string>
     <string name="tile_hint_attach">点按连接</string>
@@ -117,13 +117,13 @@
     <string name="preference_log_level_dialog_title">选择日志级别</string>
     <string name="preference_log_level_dialog_message">选择“调试”或“详细”级别时，日志中可能包含个人信息。</string>
     <string name="main_subtitle">FIDO2 安全密钥 · 蓝牙免驱</string>
-    <string name="main_section_devices">电脑</string>
+    <string name="main_section_devices">设备</string>
     <string name="main_section_more">更多</string>
-    <string name="main_empty_devices">尚未配对电脑</string>
+    <string name="main_empty_devices">尚未配对设备</string>
     <string name="main_discoverable_on_short">60 秒内可被发现</string>
 
     <string name="tile_action_connect">连接</string>
-    <string name="tile_action_choose">选择电脑</string>
+    <string name="tile_action_choose">选择设备</string>
     <string name="label_setup_on_phone">在手机上设置</string>
     <string name="label_view_on_phone">在手机上打开项目主页</string>
 

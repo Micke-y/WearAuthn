@@ -104,20 +104,20 @@
     <string name="label_tile_shortcut">Quick attach</string>
     <string name="tile_title">WearAuthn</string>
     <string name="tile_subtitle_device">Tap to attach to %1$s</string>
-    <string name="shortcut_no_device">No paired computer found, pick one from the list</string>
+    <string name="shortcut_no_device">No paired device found, pick one from the list</string>
     <string name="shortcut_connect_failed">Could not connect to %1$s</string>
     <string name="tile_main_choose">Choose a device</string>
     <string name="tile_hint_attach">Tap to attach</string>
     <string name="tile_subtitle_choose_device">Tap to choose a device</string>
     <string name="label_complication_invalid_long">No device selected — tap to choose</string>
     <string name="main_subtitle">FIDO2 security key · Bluetooth HID</string>
-    <string name="main_section_devices">Computers</string>
+    <string name="main_section_devices">Devices</string>
     <string name="main_section_more">More</string>
-    <string name="main_empty_devices">No paired computer yet</string>
+    <string name="main_empty_devices">No paired device yet</string>
     <string name="main_discoverable_on_short">Visible for the next 60 seconds</string>
 
     <string name="tile_action_connect">Connect</string>
-    <string name="tile_action_choose">Choose computer</string>
+    <string name="tile_action_choose">Choose device</string>
     <string name="label_setup_on_phone">Set up on phone</string>
     <string name="label_view_on_phone">View project on phone</string>
 
