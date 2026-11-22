@@ -36,21 +36,23 @@
 
 ---
 
-<div align="center">
+## 📷 界面
 
-![实机截图](./images/screens.png)
+实机截图：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）。
 
-<sub>实机截图：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）</sub>
+| ① 设备列表（未连接） | ② 点按设备连接 |
+| --- | --- |
+| <img src="./images/s1.png" width="280"> | <img src="./images/s2.png" width="280"> |
+| ③ 已连接 | ④ 返回列表仍保持连接 |
+| <img src="./images/s3.png" width="280"> | <img src="./images/s4.png" width="280"> |
 
-</div>
-
-## 概述
+## 🎯 概述
 
 Wear OS 设备内置独立的安全芯片，原本用于 Google Pay 的密钥存储。本应用复用该硬件能力实现 FIDO2 安全密钥：主机浏览器发起认证请求后，手表完成用户确认并返回签名断言，站点据此完成登录或二次验证。
 
 凭据与源站域名绑定，即便登录页面被完整复制，钓鱼站点也无法获得有效断言。
 
-## 功能
+## ✨ 功能
 
 - FIDO2 / U2F 认证（CTAP2）
 - 蓝牙通道：与电脑配对后作为安全密钥使用
@@ -59,14 +61,14 @@ Wear OS 设备内置独立的安全芯片，原本用于 Google Pay 的密钥存
 - 简体中文界面
 - 磁贴、表盘复杂功能两种入口
 
-## 快捷入口
+## 🧩 快捷入口
 
 手表上不必翻应用列表，两种方式都能直接进入：
 
 - **磁贴（Tile）**：加入快捷设置后，从表盘下拉即可进入应用。
 - **表盘复杂功能（Complication）**：在表盘上指定一个位置，点击该位置即启动。
 
-## 安装
+## 📲 安装
 
 手表侧安装单个 APK：
 
@@ -76,9 +78,9 @@ adb install -r WearAuthn-<version>.apk
 
 需先在手表上开启开发者选项与 ADB 调试。没有数据线时，可开启无线调试，借助 Wear OS 工具箱等无线 ADB 工具完成安装。安装完成后，可在快捷设置中添加磁贴，或在表盘上将复杂功能指向本应用。
 
-## 兼容性与验证状态
+## 🖥️ 兼容性与验证状态
 
-### 测试环境
+### 🧪 测试环境
 
 - **手表**：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）
 - **主机**：Windows 11，蓝牙配对
@@ -94,18 +96,18 @@ adb install -r WearAuthn-<version>.apk
 
 > **NFC：待定。** 已在小米手机上尝试，未能成功完成认证，原因尚未定位，因此无法确认该通道在当前版本可用。蓝牙通道不受影响。若在其他机型上跑通，欢迎开 issue 说明机型和系统版本。
 
-## 安全须知
+## 🔐 安全须知
 
 建议为每个登记该密钥的账户配置至少一项备用认证方式：备用密钥、恢复码或其他验证器。
 
 设备丢失、恢复出厂设置或应用被卸载后，密钥材料不可恢复，相关账户可能无法登录。这是硬件安全密钥的固有约束，并非本应用的缺陷。
 
-## 来源与许可
+## 📄 来源与许可
 
 - 上游项目：[fmeum/WearAuthn](https://github.com/fmeum/WearAuthn)，MIT License，© 2019 Fabian Henneke。
 - 本仓库为非官方简体中文修改版，与原作者及 Google Play 上的官方版本无隶属关系。
 - 依 MIT 许可，可自由使用、修改与再分发，保留版权与许可声明即可。改动范围见 [MODIFICATIONS.md](MODIFICATIONS.md)。
 
-## 致谢
+## 🙏 致谢
 
 感谢 [Fabian Henneke](https://github.com/fmeum) 将完整的 CTAP 实现与项目本体开源。
