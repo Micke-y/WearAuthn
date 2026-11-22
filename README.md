@@ -15,12 +15,12 @@
 </div>
 
 <div align="center">
-  <h3>"一块戴在手腕上的安全密钥"</h3>
+  <h3>"抬手，就是一把钥匙"</h3>
 </div>
 
 <div align="center">
 
-简体中文 | [English（上游原版说明）](https://github.com/fmeum/WearAuthn)
+简体中文 | [English](./README.en.md)
 
 </div>
 
