@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Micke-y/WearAuthn/releases/latest"><img src="https://img.shields.io/badge/Download%20latest-APK-2962FF?logo=android&logoColor=white" alt="Download"></a>
+<a href="https://github.com/Micke-y/WearAuthn/releases/latest"><img src="https://img.shields.io/badge/Download%20latest-APK-2962FF?style=for-the-badge&logo=android&logoColor=white" alt="Download"></a>
 
 </div>
 
@@ -36,6 +36,8 @@ English | [简体中文](./README.md) | [Changelog](./CHANGELOG.md)
 * Talks to the host over Bluetooth; user presence and assertion generation happen on the watch.
 * Private keys stay in the watch's secure element and never leave the device; signing is local.
 * Verified working with GitHub and Google account sign-in (Windows 11, Bluetooth channel).
+
+> **Tested**: Samsung Galaxy Watch 7 (One UI Watch 8.0 / Wear OS 6) paired over Bluetooth with Windows 11; authentication completed successfully on both GitHub and Google.
 * Supports resident keys, which enables passwordless sign-in once combined with the watch screen lock.
 * Simplified Chinese interface, with tile and watch-face complication entry points.
 * Watch-side installation only; no companion phone app.

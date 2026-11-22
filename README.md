@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Micke-y/WearAuthn/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%E7%89%88-APK-2962FF?logo=android&logoColor=white" alt="Download"></a>
+<a href="https://github.com/Micke-y/WearAuthn/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%E7%89%88-APK-2962FF?style=for-the-badge&logo=android&logoColor=white" alt="Download"></a>
 
 </div>
 
@@ -36,6 +36,8 @@
 * 通过蓝牙与主机通信，在手表端完成用户确认并生成签名断言。
 * 私钥由手表的安全芯片保管，不离开设备，签名在本地完成。
 * 已在 GitHub 与 Google 账号的 WebAuthn 登录流程中实测可用（Windows 11，蓝牙通道）。
+
+> **实测结果**：Galaxy Watch 7（One UI Watch 8.0 / Wear OS 6）+ Windows 11 蓝牙配对，GitHub 与 Google 的登录均已成功完成认证。
 * 支持常驻凭据（resident key），可结合屏幕锁实现免密登录。
 * 界面为简体中文，提供磁贴与表盘复杂功能两种入口。
 * 仅需在手表侧安装，无配套手机应用。
