@@ -2,6 +2,8 @@
 
 ![logo](./images/logo.png)
 
+<h1>WearAuthn</h1>
+
 </div>
 
 <div align="center">
