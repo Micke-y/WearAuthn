@@ -42,6 +42,20 @@ jobs:
           echo "version_name=${V#v}" >> "$GITHUB_OUTPUT"
           echo "version_code=${{ github.run_number }}" >> "$GITHUB_OUTPUT"
 
+      - name: Build release notes from changelog
+        run: |
+          V="${{ steps.vars.outputs.version_name }}"
+          awk -v ver="## v$V" '
+            index($0, ver) == 1 { found = 1; next }
+            found && /^## / { exit }
+            found && /^---$/ { exit }
+            found { print }
+          ' CHANGELOG.md > notes.md
+          if [ ! -s notes.md ]; then
+            echo "详见 [CHANGELOG.md](https://github.com/Micke-y/WearAuthn/blob/master/CHANGELOG.md)" > notes.md
+          fi
+          cat notes.md
+
       - name: Assemble release
         run: |
           ./gradlew -PversionName=${{ steps.vars.outputs.version_name }} \
@@ -64,6 +78,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.event.release.tag_name }}
+          body_path: notes.md
           files: |
             dist/WearAuthn-${{ steps.vars.outputs.version_name }}.apk
             dist/SHA256SUMS.txt
@@ -80,6 +95,6 @@ jobs:
             gh release create "${{ steps.vars.outputs.tag }}" \
               --target "$GITHUB_SHA" \
               --title "WearAuthn ${{ steps.vars.outputs.version_name }}" \
-              --generate-notes \
+              --notes-file notes.md \
               dist/WearAuthn-${{ steps.vars.outputs.version_name }}.apk dist/SHA256SUMS.txt
           fi
