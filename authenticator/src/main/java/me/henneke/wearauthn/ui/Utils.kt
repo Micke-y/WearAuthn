@@ -80,9 +80,8 @@ fun openPlayStoreListingOnPhone(activity: Activity) {
     RemoteIntent.startRemoteActivity(
         activity,
         Intent(Intent.ACTION_VIEW)
-            .setPackage("com.android.vending")
             .addCategory(Intent.CATEGORY_BROWSABLE)
-            .setData(Uri.parse("https://play.google.com/store/apps/details?id=${BuildConfig.APPLICATION_ID}")),
+            .setData(Uri.parse(activity.getString(R.string.url_releases))),
         null
     )
     ConfirmationOverlay().setType(ConfirmationOverlay.OPEN_ON_PHONE_ANIMATION)

@@ -110,7 +110,7 @@
     <string name="preference_support_not_purchased_summary">并解锁表盘快捷方式</string>
     <string name="preference_support_purchased_title">感谢你的支持！</string>
     <string name="preference_support_purchased_summary">查看更新日志</string>
-    <string name="about_how_to_use"><b>通过蓝牙使用</b>\n将运行 Windows 10（Chrome、Firefox 或 Edge）、macOS（Chrome）或 Linux（Chrome）的蓝牙设备与手表配对，再在 WearAuthn 主菜单中连接该设备。此后即可把这块手表当作已插入的 USB 安全密钥使用。\n\n<b>通过 NFC 使用</b>\n当系统提示“使用安全密钥”时，将手表贴近支持 NFC 的 Android 手机或 iPhone（iOS 13.3 及以上）。即使停留在表盘、未处于常亮模式，此方式同样可用。</string>
+    <string name="about_how_to_use"><b>通过蓝牙使用</b>\n将运行 Windows 11（Chrome、Firefox 或 Edge）、macOS（Chrome）或 Linux（Chrome）的蓝牙设备与手表配对，再在 WearAuthn 主菜单中连接该设备。此后即可把这块手表当作已插入的 USB 安全密钥使用。\n\n<b>通过 NFC 使用</b>\n当系统提示“使用安全密钥”时，将手表贴近支持 NFC 的 Android 手机或 iPhone（iOS 13.3 及以上）。即使停留在表盘、未处于常亮模式，此方式同样可用。此通道尚未验证。</string>
 
     <!-- Logging -->
     <string name="preference_log_level_title">日志级别</string>
@@ -125,7 +125,7 @@
     <string name="tile_action_connect">连接</string>
     <string name="tile_action_choose">选择电脑</string>
     <string name="label_setup_on_phone">在手机上设置</string>
-    <string name="label_view_on_phone">在手机上查看</string>
+    <string name="label_view_on_phone">在手机上打开项目主页</string>
 
     <string name="passwordless_screen_title">免密登录</string>
     <string name="passwordless_screen_description">开启后手表会自己完成登录；关闭后每次都要在手表上确认。</string>
