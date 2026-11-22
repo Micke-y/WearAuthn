@@ -46,12 +46,12 @@
 
 **已在以下站点完成验证**
 
-| 站点 | 结果 | 通道 |
-| --- | --- | --- |
-| <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="22"> | ✅ 通过 | 蓝牙 · Windows 11 |
-| <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="22"> | ✅ 通过 | 蓝牙 · Windows 11 |
-| <img src="https://img.shields.io/badge/Microsoft-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" height="22"> | ✅ 通过 | 蓝牙 · Windows 11 |
-| <img src="https://img.shields.io/badge/webauthn.io-2962FF?style=flat-square&logo=webauthn&logoColor=white" height="22"> | ✅ 通过 | 蓝牙 · Windows 11 |
+| 站点 | 用途 | 结果 | 通道 |
+| --- | --- | --- | --- |
+| <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="22"> | 真实账号登录 | ✅ 通过 | 蓝牙 · Windows 11 |
+| <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="22"> | 真实账号登录 | ✅ 通过 | 蓝牙 · Windows 11 |
+| <img src="https://img.shields.io/badge/Microsoft-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" height="22"> | 真实账号登录 | ✅ 通过 | 蓝牙 · Windows 11 |
+| <img src="https://img.shields.io/badge/webauthn.io-2962FF?style=flat-square&logo=webauthn&logoColor=white" height="22"> | 测试网站（WebAuthn 演示站） | ✅ 通过 | 蓝牙 · Windows 11 |
 
 > 注：本项目为非官方简体中文版本，基于 [fmeum/WearAuthn](https://github.com/fmeum/WearAuthn)（MIT License，© 2019 Fabian Henneke）修改。CTAP 实现、安全模型与原始设计均归原作者所有。
 

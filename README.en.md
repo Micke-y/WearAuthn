@@ -39,16 +39,12 @@ English | [简体中文](./README.md) | [Changelog](./CHANGELOG.md)
 
 **Verified on the following sites**
 
-| Site | Result | Channel |
-| --- | --- | --- |
-| <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="22"> | ✅ Passed | Bluetooth · Windows 11 |
-| <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="22"> | ✅ Passed | Bluetooth · Windows 11 |
-| <img src="https://img.shields.io/badge/Microsoft-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" height="22"> | ✅ Passed | Bluetooth · Windows 11 |
-| <img src="https://img.shields.io/badge/webauthn.io-2962FF?style=flat-square&logo=webauthn&logoColor=white" height="22"> | ✅ Passed | Bluetooth · Windows 11 |
-* Supports resident keys, which enables passwordless sign-in once combined with the watch screen lock.
-* Simplified Chinese interface, with tile and watch-face complication entry points.
-* Watch-side installation only; no companion phone app.
-* The NFC channel is currently unverified. See "Compatibility and Verification Status".
+| Site | Purpose | Result | Channel |
+| --- | --- | --- | --- |
+| <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="22"> | Real account sign-in | ✅ Passed | Bluetooth · Windows 11 |
+| <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="22"> | Real account sign-in | ✅ Passed | Bluetooth · Windows 11 |
+| <img src="https://img.shields.io/badge/Microsoft-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" height="22"> | Real account sign-in | ✅ Passed | Bluetooth · Windows 11 |
+| <img src="https://img.shields.io/badge/webauthn.io-2962FF?style=flat-square&logo=webauthn&logoColor=white" height="22"> | Test site (WebAuthn demo) | ✅ Passed | Bluetooth · Windows 11 |
 
 > **Tested**: Samsung Galaxy Watch 7 (One UI Watch 8.0 / Wear OS 6) paired over Bluetooth with Windows 11; authentication completed successfully on GitHub, Google and Microsoft.
 
