@@ -1,6 +1,6 @@
 # Datenschutzhinweise für WearAuthn
 
-Die Wear OS-App [WearAuthn](https://play.google.com/store/apps/details?id=me.henneke.wearauthn.authenticator) ist ein U2F/FIDO2-kompatibler Sicherheitsschlüssel. Sie kann als zweiter oder einziger Faktor für die Anmeldung auf Webseiten benutzt werden.
+Die Wear OS-App [WearAuthn](https://github.com/Micke-y/WearAuthn) ist ein U2F/FIDO2-kompatibler Sicherheitsschlüssel. Sie kann als zweiter oder einziger Faktor für die Anmeldung auf Webseiten benutzt werden.
 
 WearAuthn tauscht Daten nur mit vorher gekoppelten und verbundenen Bluetooth-Geräten und per NFC aus. Beides geschieht ausschließlich im Rahmen der [CTAP 2.1-Spezifikation](https://fidoalliance.org/specs/fido2/fido-client-to-authenticator-protocol-v2.1-rd-20191217.html) für FIDO2-kompatible Sicherheitsschlüssel. Inbesondere überträgt (oder empfängt) WearAuthn selbst keine Daten über das Internet und enhält keine "Tracker" oder Werbund in jedweder Form.
 

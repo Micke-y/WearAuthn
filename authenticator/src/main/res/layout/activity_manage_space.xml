@@ -13,7 +13,7 @@
 
         <fragment
             android:id="@+id/progressSpinnerFragment"
-            android:name="me.henneke.wearauthn.ui.ProgressSpinner"
+            android:name="com.mickey.wearauthn.ui.ProgressSpinner"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>

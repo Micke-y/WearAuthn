@@ -7,7 +7,7 @@
     This intentionally doesn't have tools:targetApi="s" set even though the docs say it should.
     Not declaring this permission results in the following failure in the emulator and on a
     real watch:
-    java.lang.SecurityException: Permission Denial: starting Intent { act=android.bluetooth.adapter.action.REQUEST_DISCOVERABLE cmp=com.google.android.apps.wearable.settings/com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothRequestDiscoverableActivity (has extras) } from ProcessRecord{d09dbe5 21801:me.henneke.wearauthn.authenticator/u0a8} (pid=21801, uid=10008) requires android.permission.BLUETOOTH
+    java.lang.SecurityException: Permission Denial: starting Intent { act=android.bluetooth.adapter.action.REQUEST_DISCOVERABLE cmp=com.google.android.apps.wearable.settings/com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothRequestDiscoverableActivity (has extras) } from ProcessRecord{d09dbe5 21801:com.mickey.wearauthn.authenticator/u0a8} (pid=21801, uid=10008) requires android.permission.BLUETOOTH
     -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -50,7 +50,7 @@
             android:value="true" />
 
         <activity
-            android:name="me.henneke.wearauthn.ui.main.AuthenticatorActivity"
+            android:name="com.mickey.wearauthn.ui.main.AuthenticatorActivity"
             android:clearTaskOnLaunch="true"
             android:exported="true"
             android:taskAffinity=".ui.main.AuthenticatorActivity">
@@ -61,19 +61,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="me.henneke.wearauthn.ui.main.AuthenticatorAttachedActivity"
+            android:name="com.mickey.wearauthn.ui.main.AuthenticatorAttachedActivity"
             android:taskAffinity=".ui.main.AuthenticatorActivity" />
         <activity
-            android:name="me.henneke.wearauthn.ui.main.AboutActivity"
+            android:name="com.mickey.wearauthn.ui.main.AboutActivity"
             android:taskAffinity=".ui.main.AuthenticatorActivity" />
         <activity
-            android:name="me.henneke.wearauthn.ui.main.PasswordlessModeActivity"
+            android:name="com.mickey.wearauthn.ui.main.PasswordlessModeActivity"
             android:taskAffinity=".ui.main.AuthenticatorActivity" />
         <activity
-            android:name="me.henneke.wearauthn.ui.ConfirmDeviceCredentialActivity"
+            android:name="com.mickey.wearauthn.ui.ConfirmDeviceCredentialActivity"
             android:taskAffinity=".ui.main.AuthenticatorActivity" />
         <activity
-            android:name="me.henneke.wearauthn.ui.ManageSpaceActivity"
+            android:name="com.mickey.wearauthn.ui.ManageSpaceActivity"
             android:taskAffinity=".ui.ManageSpaceActivity" />
         <activity
             android:name="android.support.wearable.preference.WearablePreferenceActivity"
@@ -83,7 +83,7 @@
             android:taskAffinity=".ui.main.AuthenticatorActivity" />
 
         <service
-            android:name="me.henneke.wearauthn.fido.nfc.NfcAuthenticatorService"
+            android:name="com.mickey.wearauthn.fido.nfc.NfcAuthenticatorService"
             android:exported="true"
             android:permission="android.permission.BIND_NFC_SERVICE">
             <intent-filter>
@@ -96,7 +96,7 @@
         </service>
 
         <service
-            android:name="me.henneke.wearauthn.complication.ShortcutComplicationProviderService"
+            android:name="com.mickey.wearauthn.complication.ShortcutComplicationProviderService"
             android:enabled="true"
             android:exported="true"
             android:icon="@drawable/ic_launcher_outline"
@@ -114,17 +114,17 @@
                 android:value="0" />
             <meta-data
                 android:name="android.support.wearable.complications.PROVIDER_CONFIG_ACTION"
-                android:value="me.henneke.wearauthn.complication.ACTION_COMPLICATION_CONFIG" />
+                android:value="com.mickey.wearauthn.complication.ACTION_COMPLICATION_CONFIG" />
         </service>
 
         <activity
-            android:name="me.henneke.wearauthn.tile.ShortcutLaunchActivity"
+            android:name="com.mickey.wearauthn.tile.ShortcutLaunchActivity"
             android:exported="true"
             android:theme="@android:style/Theme.NoDisplay"
             android:taskAffinity=".ui.main.AuthenticatorActivity" />
 
         <service
-            android:name="me.henneke.wearauthn.tile.ShortcutTileService"
+            android:name="com.mickey.wearauthn.tile.ShortcutTileService"
             android:exported="true"
             android:label="@string/label_tile_shortcut"
             android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
@@ -138,12 +138,12 @@
         </service>
 
         <activity
-            android:name="me.henneke.wearauthn.complication.ComplicationConfigActivity"
+            android:name="com.mickey.wearauthn.complication.ComplicationConfigActivity"
             android:exported="true"
             android:label="@string/label_complication_config"
             android:taskAffinity=".complication.ComplicationConfigActivity">
             <intent-filter>
-                <action android:name="me.henneke.wearauthn.complication.ACTION_COMPLICATION_CONFIG" />
+                <action android:name="com.mickey.wearauthn.complication.ACTION_COMPLICATION_CONFIG" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.support.wearable.complications.category.PROVIDER_CONFIG" />
@@ -154,7 +154,7 @@
             android:taskAffinity=".ui.main.AuthenticatorActivity" />
 
         <service
-            android:name="me.henneke.wearauthn.sync.UnlockComplicationListenerService"
+            android:name="com.mickey.wearauthn.sync.UnlockComplicationListenerService"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />

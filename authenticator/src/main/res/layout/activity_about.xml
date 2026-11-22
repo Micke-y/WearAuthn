@@ -10,7 +10,7 @@
     android:fadingEdgeLength="24dp"
     android:requiresFadingEdge="vertical"
     android:scrollbars="none"
-    tools:context="me.henneke.wearauthn.ui.main.AboutActivity">
+    tools:context="com.mickey.wearauthn.ui.main.AboutActivity">
 
     <requestFocus />
 
