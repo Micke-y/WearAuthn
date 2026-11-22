@@ -68,10 +68,13 @@ Credentials are bound to the origin, so a phishing site cannot obtain a valid as
 
 - FIDO2 / U2F authentication (CTAP2)
 - Bluetooth channel: pair with a computer and use it as a security key
-- NFC channel: near-field mode for phones, **currently unverified**
 - Resident keys and passwordless sign-in
 - Simplified Chinese interface
 - Tile and watch-face complication entry points
+
+## 🚧 Unverified Features
+
+- **NFC channel**: near-field mode for phones. Attempts on a Xiaomi phone did not complete, so availability is not promised. See "Compatibility and Verification Status".
 
 ## 🧩 Entry Points
 
@@ -82,13 +85,7 @@ No need to dig through the app list — two shortcuts launch the app directly:
 
 ## 📲 Installation
 
-Install a single APK on the watch:
-
-```bash
-adb install -r WearAuthn-<version>.apk
-```
-
-Developer options and ADB debugging must be enabled on the watch first. Without a cable, enable wireless debugging and install through a wireless ADB tool such as Wear OS Toolbox. Once installed, add the tile to quick settings or assign the complication on your watch face to this app.
+Install a single APK on the watch. Enable developer options and ADB debugging first; without a cable, enable wireless debugging and install through a wireless ADB tool such as Wear OS Toolbox. Once installed, add the tile to quick settings or assign the complication on your watch face to this app.
 
 ## 🖥️ Compatibility and Verification Status
 
