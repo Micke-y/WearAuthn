@@ -48,7 +48,6 @@ English | [简体中文](./README.md) | [Changelog](./CHANGELOG.md)
 
 > **Tested**: Samsung Galaxy Watch 7 (One UI Watch 8.0 / Wear OS 6) paired over Bluetooth with Windows 11; authentication completed successfully on GitHub, Google and Microsoft.
 
-
 > Note: this is an unofficial Simplified Chinese build based on [fmeum/WearAuthn](https://github.com/fmeum/WearAuthn) (MIT License, © 2019 Fabian Henneke). The CTAP implementation, the security model and the original design all belong to the upstream author.
 
 ---
