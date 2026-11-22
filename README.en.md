@@ -35,6 +35,7 @@ English | [简体中文](./README.md) | [Changelog](./CHANGELOG.md)
 * FIDO2 / U2F security key on a Wear OS watch, implemented against the CTAP specification.
 * Talks to the host over Bluetooth; user presence and assertion generation happen on the watch.
 * Private keys stay in the watch's secure element and never leave the device; signing is local.
+* Verified working with GitHub and Google account sign-in (Windows 11, Bluetooth channel).
 * Supports resident keys, which enables passwordless sign-in once combined with the watch screen lock.
 * Simplified Chinese interface, with tile and watch-face complication entry points.
 * Watch-side installation only; no companion phone app.
@@ -101,7 +102,7 @@ Install a single APK on the watch. Enable developer options and ADB debugging fi
 
 - **Watch**: Samsung Galaxy Watch 7, One UI Watch 8.0 (Wear OS 6)
 - **Host**: Windows 11, paired over Bluetooth
-- **Test site**: [webauthn.io](https://webauthn.io/) (the WebAuthn demo maintained by Duo Labs)
+- **Test sites**: [webauthn.io](https://webauthn.io/) (the WebAuthn demo maintained by Duo Labs), plus GitHub and Google account sign-in
 - **NFC**: unverified
 
 | Platform | Channel | Status |
