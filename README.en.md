@@ -38,9 +38,9 @@ English | [简体中文](./README.md)
 
 <div align="center">
 
-![Interface preview](./images/preview.png)
+![Screenshots](./images/screens.png)
 
-<sub>Interface preview (Simplified Chinese UI, rendered from source rather than captured on a device)</sub>
+<sub>Captured on a Samsung Galaxy Watch 7</sub>
 
 </div>
 
@@ -73,7 +73,7 @@ Developer options and ADB debugging must be enabled on the watch first. Without 
 
 | Platform | Channel | Status |
 | --- | --- | --- |
-| Windows (Bluetooth) | Paired computer | Verified · tested locally |
+| Windows (Bluetooth) | Paired computer | Verified · tested on Galaxy Watch 7 |
 | macOS / ChromeOS / Linux | Bluetooth | Unverified · supported per upstream docs |
 | Android | NFC | Unverified · test unsuccessful |
 | iPhone | NFC | Unverified |

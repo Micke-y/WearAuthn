@@ -38,9 +38,9 @@
 
 <div align="center">
 
-![界面预览](./images/preview.png)
+![实机截图](./images/screens.png)
 
-<sub>界面预览（按代码渲染，非实机截图）</sub>
+<sub>实机截图：Samsung Galaxy Watch 7</sub>
 
 </div>
 
@@ -73,7 +73,7 @@ adb install -r WearAuthn-<version>.apk
 
 | 平台 | 通道 | 状态 |
 | --- | --- | --- |
-| Windows（蓝牙） | 电脑配对后作为安全密钥 | 已验证 · 本机实测可用 |
+| Windows（蓝牙） | 电脑配对后作为安全密钥 | 已验证 · Galaxy Watch 7 实测可用 |
 | macOS / ChromeOS / Linux | 蓝牙 | 未验证 · 上游文档有支持 |
 | Android | NFC | 未验证 · 实测未成功 |
 | iPhone | NFC | 未验证 |
