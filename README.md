@@ -40,10 +40,10 @@
 
 实机截图：Samsung Galaxy Watch 7，One UI Watch 8.0（Wear OS 6）。
 
-| ① 设备列表（未连接） | ② 点按设备连接 |
+| ① 应用主界面（未连接） | ② 设备详情 · 点按连接 |
 | --- | --- |
 | <img src="./images/s1.png" width="280"> | <img src="./images/s2.png" width="280"> |
-| ③ 已连接 | ④ 返回列表仍保持连接 |
+| ③ 已连接 | ④ 主界面（连接后） |
 | <img src="./images/s3.png" width="280"> | <img src="./images/s4.png" width="280"> |
 
 ## 🎯 概述

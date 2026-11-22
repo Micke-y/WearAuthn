@@ -40,10 +40,10 @@ English | [简体中文](./README.md)
 
 Captured on a Samsung Galaxy Watch 7 running One UI Watch 8.0 (Wear OS 6).
 
-| ① Device list (disconnected) | ② Tap a device to connect |
+| ① Main screen (disconnected) | ② Device detail · tap to connect |
 | --- | --- |
 | <img src="./images/s1.png" width="280"> | <img src="./images/s2.png" width="280"> |
-| ③ Connected | ④ Back to the list, still connected |
+| ③ Connected | ④ Main screen after connecting |
 | <img src="./images/s3.png" width="280"> | <img src="./images/s4.png" width="280"> |
 
 ## 🎯 Overview
